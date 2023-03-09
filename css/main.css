@@ -15,7 +15,7 @@
     text-align: center;
 }
 
-#menu #imgContainer{
+#menu #imgContainer_1, #imgContainer_2, #imgContainer_3, #imgContainer_4{
     width: auto;
     display: inline;
     max-width: 100px;
@@ -23,15 +23,17 @@
     margin: auto;
     padding-bottom: 200px;
 }
-#menu #imgContainer:hover > a{
+
+#menu #imgContainer_1:hover, #imgContainer_2:hover, #imgContainer_3:hover, #imgContainer_4:hover > a{
     color: red;
     
+
 }
-#menu #imgContainer img{
+#menu #imgContainer_1, #imgContainer_2, #imgContainer_3, #imgContainer_4 img{
     width: 100%;
 }
 
-#images2{
+#images_1, #images_2, #images_3{
     width: 100%;
 }
 
