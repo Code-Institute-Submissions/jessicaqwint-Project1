@@ -1,0 +1,47 @@
+
+
+#logoContainer{
+    width: fit-content;
+    height: 400px;
+}
+#logoContainer img{
+    width: 400px;
+}
+
+#menu{
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    text-align: center;
+}
+
+#menu #imgContainer{
+    width: auto;
+    display: inline;
+    max-width: 100px;
+    height: 100px;
+    margin: auto;
+    padding-bottom: 200px;
+}
+#menu #imgContainer:hover > a{
+    color: red;
+    
+}
+#menu #imgContainer img{
+    width: 100%;
+}
+
+#images2{
+    width: 100%;
+}
+
+form{
+    background-color: rgba(239, 253, 255, 0.925);
+    width: 100%;
+    max-width: 500px;
+    text-align: right;
+    height: 100px;
+}
+
+
+
